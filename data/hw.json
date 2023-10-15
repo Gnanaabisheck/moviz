@@ -1,0 +1,78 @@
+{
+    "movieList" : [
+       {
+            "id":1,
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1683636514995-BkRDHNm3uFZqO70Hjuemud122V.jpg?tr=h-350,q-40&version=5",
+            "title":"Jailer",
+            "imdb":"IMDb 8"
+        },
+        {
+            "id":2,
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1686510670696-lZ2BbjGBDRW5Q5Q9jgEknuiEQ0f.jpg?tr=h-350,q-40&version=5",
+            "title":"Por Thozil",
+            "imdb":"IMDb 8"
+        },
+        
+        {
+            "id":3,
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1692125620545-eTLmwObjtcZhR114TOrgb22N8CC.jpg?tr=h-350,q-40&version=5",
+            "title":"Maaveeran",
+            "imdb":"IMDb 7.4"
+        },
+        {
+            "id":4,
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1691041743148-aautnOfweBUF74nmwRI2iSf8VdL.jpg?tr=h-350,q-40&version=5",
+            "title":"Dd Returns",
+            "imdb":"IMDb 6.3"
+        },
+        {
+            "id":5,
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1687217974775-x7C2u4oXoMFQBaSJqqcyU3qpwKy.jpg?tr=h-350,q-40&version=5",
+            "title":"Dada",
+            "imdb":"IMDb 8.2"
+        },
+        {
+            "id":6,
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-1692258863-fIwLD6e0BsoVFMS8aKoPYTlwEEp.jpg?tr=h-350,q-40&version=5",
+            "title":"Harkara",
+            "imdb":"IMDb 8"
+        },
+        {
+            "id":7,
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1693446127116-kynXOnVNi5s1BgLNILii00RJdaW.jpg?tr=h-350,q-40&version=5",
+            "title":"Adiyae",
+            "imdb":"IMDb 6.3"
+        },
+        {
+            "id":8,
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-1683695215-aFTO0tCTxXazstWfhOQHPb3kcMT.jpg?tr=h-350,q-40&version=5",
+            "title":"Good Night",
+            "imdb":"IMDb 7.7"
+        },
+        {
+            "id":9,
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1687880432896-bdfmTnEyGDN46o6q1gUxuNdoQv8.jpg?tr=h-350,q-40&version=5",
+            "title":"Maayon",
+            "imdb":"IMDb 6.9"
+        },
+        {
+            "id":10,
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1687510639545-q6wfuQWN9QjUu3j63FAZ3uFL5pO.jpg?tr=h-350,q-40&version=5",
+            "title":"Sardar",
+            "imdb":"IMDb 7.6"
+        },
+        {
+            "id":11,
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1682972175286-luYCZeoFjz9eKafuxSgn2p1PCmX.jpg?tr=h-350,q-40&version=5",
+            "title":"Maamannan",
+            "imdb":"IMDb 7.2"
+        },
+        {
+            "id":12,
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1686816481942-oTxPji8PY3PL0SK9e4mkt2laJKg.jpg?tr=h-350,q-40&version=5",
+            "title":"Viduthalai",
+            "imdb":"IMDb 8.3"
+        }
+               
+    ]
+}
