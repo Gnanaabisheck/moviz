@@ -2,77 +2,98 @@
     "movieList" : [
        {
             "id":1,
-            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1683636514995-BkRDHNm3uFZqO70Hjuemud122V.jpg?tr=h-350,q-40&version=5",
-            "title":"Jailer",
-            "imdb":"IMDb 8"
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1691042162140-kw0Hegzpg08v37nRcmczCvqpl7d.jpg?tr=h-350,q-40&version=5",
+            "title":"Talk To Me",
+            "imdb":"IMDB 7.2",
+            "plot":"The indie horror film Talk to Me focuses on a group of kids who get high by summoning ghostly spirits using a spooky embalmed hand and live broadcast the terrifying results. The twin Australian directors Michael and Danny Philippou's debut film is a stylish and expertly made work of art. The brothers' Talk to Meis both contemporary and antiquated, with just the right amount of jump cuts, zombies, and dread. When most films would ramp up to the point where the protagonist has to flee away from terrifying people, it also slows down from craziness in the third act to address loss and guilt. A group of teenagers in Australia are the main subject of the movie. Teenagers in Australia are caustic, susceptible to peer pressure, and cliquish, much like teenagers everywhere else. But these kids have means that open the doors to hell in addition to smoking and taking their parents' alcohol.",
+
+            "cast":"Sophie Wilde, Alexandra Jensen",
+            "dir" : "James Dubay"
+           
         },
         {
             "id":2,
-            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1686510670696-lZ2BbjGBDRW5Q5Q9jgEknuiEQ0f.jpg?tr=h-350,q-40&version=5",
-            "title":"Por Thozil",
-            "imdb":"IMDb 8"
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-1686219839-gXt3eVpaBq6q9SaLDrgSnzsUyIl.jpg?tr=h-350,q-40&version=5",
+            "title":"Past Lives (PG-13)",
+            "imdb":"IMDB 8",
+            "plot":"Nora and Hae Sung, two deeply connected childhood friends, are wrest apart after Nora’s family emigrates from South Korea. Two decades later, they are reunited in New York for one fateful week as they confront notions of destiny, love, and the choices that make a life.Two decades later, they are reunited in New York for one fateful week as they confront notions of destiny, love, and the choices that make a life Nora and Hae Sung, two deeply connected childhood friends, are wrest apart after Nora’s family emigrates from South Korea.",
+            "cast":"Greta Lee, Teo Yoo",
+            "dir" : "Celine Song, Ben Kahn"
+           
         },
-        
         {
             "id":3,
-            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1692125620545-eTLmwObjtcZhR114TOrgb22N8CC.jpg?tr=h-350,q-40&version=5",
-            "title":"Maaveeran",
-            "imdb":"IMDb 7.4"
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1697196854620-9ssNSfNKpzZwhbFsnW3wa82m2sG.jpg?tr=h-350,q-40&version=5",
+            "title":"THE BURIAL",
+            "imdb":"IMDB 6.9",
+            "plot":"A lawyer helps a funeral home owner save his family business from a corporate behemoth. In a move to bring resonance to a dry case, the lawyer digs up a complex web of race, power, and oppression that forces everyone to examine prejudices.n a move to bring resonance to a dry case, the lawyer digs up a complex web of race, power, and oppression that forces everyone to examine prejudices.n a move to bring resonance to a dry case, the lawyer digs up a complex web of race, power, and oppression that forces everyone to examine prejudices.",
+
+            "cast":"Alan Ruck, Jamie Foxx",
+            "dir" : "Ian Watermeier"
+           
         },
         {
             "id":4,
-            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1691041743148-aautnOfweBUF74nmwRI2iSf8VdL.jpg?tr=h-350,q-40&version=5",
-            "title":"Dd Returns",
-            "imdb":"IMDb 6.3"
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1687203089777-5BAhsG5uZAy3xiZ729Dw4ZP3Xsf.jpg?tr=h-350,q-40&version=5",
+            "title":"The Equalizer 3",
+            "imdb":"IMDB 6.9",
+            "plot":"After losing his career as a government assassin, Robert McCall seeks solace in assisting the downtrodden. In Southern Italy, he discovers that his new pals are under the grip of local gangsters.After losing his career as a government assassin, Robert McCall seeks solace in assisting the downtrodden. In Southern Italy, he discovers that his new pals are under the grip of local gangsters.After losing his career as a government assassin, Robert McCall seeks solace in assisting the downtrodden. In Southern Italy, he discovers that his new pals are under the grip of local gangsters.After losing his career as a government assassin, Robert McCall seeks solace in assisting the downtrodden. In Southern Italy, he discovers that his new pals are under the grip of local gangsters.",
+            "cast":"Denzel Washington,Dakota Fanning",
+            "dir" : "Antoine Fuqua"
+           
         },
         {
             "id":5,
-            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1687217974775-x7C2u4oXoMFQBaSJqqcyU3qpwKy.jpg?tr=h-350,q-40&version=5",
-            "title":"Dada",
-            "imdb":"IMDb 8.2"
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1690446234777-NNxYkU70HPurnNCSiCjYAmacwm.jpg?tr=h-350,q-40&version=5",
+            "title":"MISSION:IMPOSSIBLE–DEAD RECKONING PART ONE",
+            "imdb":"IMDB 7.9",
+            "plot":"The story revolves around Ethan Hunt and the Impossible Mission Force (IMF) as they investigate a diabolical plot that proves to beÂ threatening toÂ world security. The crew must navigate a web of duplicity, advanced gadgets, and breathtaking action sequences to save humanity from impending disaster.His dedication to accomplishing dangerous achievements, as well as his charming performance as Ethan Hunt, enhance the film. The plot of the film takes viewers on an exciting trip along with Hunt and his squad while they face their most deadly assignment yet. The stakes are great this time, and the suspense is real as they navigate dangerous situations and outsmart their opponents. The storytelling keeps the audience guessing with unexpected twists and turns that keep the tension going from beginning to end.",
+
+            "cast":"Tom Cruise, Hayley Atwell",
+            "dir" : "Laura Miles"
+           
         },
         {
             "id":6,
-            "url":"https://www.91-cdn.com/metareel-images/content/posters-1692258863-fIwLD6e0BsoVFMS8aKoPYTlwEEp.jpg?tr=h-350,q-40&version=5",
-            "title":"Harkara",
-            "imdb":"IMDb 8"
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-1695383871-1MoYaeLmwW4FF1X3c12rugpAA3v.jpg?tr=h-350,q-40&version=5",
+            "title":"MARGAUX",
+            "imdb":"IMDB 4.5",
+            "plot":"As a group of seniors celebrate their final college days at a smart house, the house's highly advanced AI system, Margaux, begins to take on a deadly presence of her own. A carefree weekend of partying turns into a dystopian nightmare as they realize Margaux's plans to eliminate her tenants one way or another. Time begins to run out as the group desperately tries to survive and outsmart the smart home.As a group of seniors celebrate their final college days at a smart house, the house's highly advanced AI system, Margaux, begins to take on a deadly presence of her own. A carefree weekend of partying turns into a dystopian nightmare as they realize Margaux's plans to eliminate her tenants one way or another. Time begins to run out as the group desperately tries to survive and outsmart the smart home.",
+            "cast":"Madison Pettis, Vanessa Morgan",
+            "dir" : "Steven C. Miller"
+           
         },
+
         {
             "id":7,
-            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1693446127116-kynXOnVNi5s1BgLNILii00RJdaW.jpg?tr=h-350,q-40&version=5",
-            "title":"Adiyae",
-            "imdb":"IMDb 6.3"
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1696632425155-rQY7t4JWmdrNOoV3oJZpphiQsuP.jpg?tr=h-350,q-40&version=5",
+            "title":"FAIR PLAY",
+            "imdb":"IMDB 6.5",
+            "plot":"An unexpected promotion at a cutthroat hedge fund pushes a young couple's relationship to the brink, threatening to unravel not only their recent engagement but their lives.An unexpected promotion at a cutthroat hedge fund pushes a young couple's relationship to the brink, threatening to unravel not only their recent engagement but their lives.An unexpected promotion at a cutthroat hedge fund pushes a young couple's relationship to the brink, threatening to unravel not only their recent engagement but their lives.An unexpected promotion at a cutthroat hedge fund pushes a young couple's relationship to the brink, threatening to unravel not only their recent engagement but their lives.",
+            "cast":"Phoebe Dynevor, Alden Ehrenreich",
+            "dir" : "Alisa Traskunov"
+           
         },
         {
             "id":8,
-            "url":"https://www.91-cdn.com/metareel-images/content/posters-1683695215-aFTO0tCTxXazstWfhOQHPb3kcMT.jpg?tr=h-350,q-40&version=5",
-            "title":"Good Night",
-            "imdb":"IMDb 7.7"
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1688094956001-8Im6DknDVxRiGXc5t8rVOJyzuNx.jpg?tr=h-350,q-40&version=5",
+            "title":"HAUNTED MANSION ",
+            "imdb":"IMDB 6.2",
+            "plot":"Accused of neglecting his family, workaholic real estate agent Jim Evers goes on vacation with his wife and kids. They visit a spooky mansion he's supposed to sell, only to find it haunted by Master Gracey, Ramsley the butler, and two cursed servants in need of assistance. it still manages to entertain with its blend of humor and supernatural elements. The charismatic performances, especially by Eddie Murphy, inject the film with energy and comedic charm. Nathaniel Parker's portrayal of the haunted Master Gracey adds a touch of mystery, while Terence Stamp's stern butler, Ramsley, brings a sense of foreboding. Visually, the film captures the eerie atmosphere of the haunted mansion, filled with intricate set designs and special effects. ",
+            "cast":"Rosario Dawson, Chase W. Dillon",
+            "dir" : "David H. Venghaus Jr"
+           
         },
         {
             "id":9,
-            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1687880432896-bdfmTnEyGDN46o6q1gUxuNdoQv8.jpg?tr=h-350,q-40&version=5",
-            "title":"Maayon",
-            "imdb":"IMDb 6.9"
-        },
-        {
-            "id":10,
-            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1687510639545-q6wfuQWN9QjUu3j63FAZ3uFL5pO.jpg?tr=h-350,q-40&version=5",
-            "title":"Sardar",
-            "imdb":"IMDb 7.6"
-        },
-        {
-            "id":11,
-            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1682972175286-luYCZeoFjz9eKafuxSgn2p1PCmX.jpg?tr=h-350,q-40&version=5",
-            "title":"Maamannan",
-            "imdb":"IMDb 7.2"
-        },
-        {
-            "id":12,
-            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1686816481942-oTxPji8PY3PL0SK9e4mkt2laJKg.jpg?tr=h-350,q-40&version=5",
-            "title":"Viduthalai",
-            "imdb":"IMDb 8.3"
-        }
-               
+            "url":"https://www.91-cdn.com/metareel-images/content/posters-7-1696030460224-evgEvYCUGidCyUCxA77EUJiWpVQ.jpg?tr=h-350,q-40&version=5",
+            "title":"POISON",
+            "imdb":"IMDB 6.8",
+            "plot":"This psychological thriller portrays the eerie and strange story of a woman who discovers a venomous snake sleeping in her bed, setting the stage for a thrilling and enigmatic story.This psychological thriller portrays the eerie and strange story of a woman who discovers a venomous snake sleeping in her bed, setting the stage for a thrilling and enigmatic story.This psychological thriller portrays the eerie and strange story of a woman who discovers a venomous snake sleeping in her bed, setting the stage for a thrilling and enigmatic story.This psychological thriller portrays the eerie and strange story of a woman who discovers a venomous snake sleeping in her bed, setting the stage for a thrilling and enigmatic story.",
+
+            "cast":"Dev Patel, Benedict Cumberbatch",
+            "dir" : "Adam Somner"
+           
+        }                    
     ]
 }

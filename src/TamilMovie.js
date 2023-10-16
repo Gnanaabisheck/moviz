@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-
 import './Tamil.css'
 import{Container,Row,Col}from 'react-bootstrap'
 import { Link } from 'react-router-dom'

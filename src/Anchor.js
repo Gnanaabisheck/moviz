@@ -10,7 +10,6 @@ const Anchor = () => {
     
   const [show, setShow] = useState(false);
   const [sh, setSh] = useState(false);
-
   const handleClose = () => setShow(false);
   const handleCl = () => setSh(false);
   const handleShow = () => setShow(true);
@@ -18,15 +17,14 @@ const Anchor = () => {
 
   return (
     <div>
-    <Navbar expand="md" className='bg-dark'>
+    <Navbar expand="md" className=''>
       <Container fluid className='mt-2'>
         <FaInnosoft style={{fontSize:'60px'}}/><Navbar.Brand href='' className='fs-1 fw-bolder text-white'>Mo<span style={{color:'green'}}>viz</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-white'/>
-        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end fs-5 fw-bold me-4">
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end me-4">
           <Nav >
             <Nav.Link href="#" onClick={handleShow}className='m-3' id='lnk'>Login</Nav.Link>
             <Nav.Link href="#" onClick={handleSh} className='m-3' id='lnk'>Register</Nav.Link>
-            <Nav.Link href="#" className='m-3' id='pl'>PLANS</Nav.Link>
 
           </Nav>
         </Navbar.Collapse>

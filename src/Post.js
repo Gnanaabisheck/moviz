@@ -41,7 +41,7 @@ const Post = () => {
        
        <Container className='mt-5'>
         <Row>
-          <Col md={4} key={data.id}>
+          <Col md={4} >
                 <Image src={data.url} style={{display:'block', margin:'auto',borderRadius:'20px'}}/>
           </Col>
           <Col md={8} className='mt-4'>

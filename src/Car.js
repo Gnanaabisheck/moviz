@@ -1,20 +1,12 @@
 import React from 'react'
-import { useState } from 'react';
 import { Container } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 
 const Car = () => {
-
   
-
   return (
     <div>
-        
-
-       
-
 <Container className='mt-5' fluid>
-    
 <Carousel data-bs-theme="dark">
       <Carousel.Item>
         <img
@@ -40,20 +32,15 @@ const Car = () => {
         />
        
       </Carousel.Item>
-
       <Carousel.Item>
         <img
           className="d-block w-100 h-100"
           src="https://getwallpapers.com/wallpaper/full/f/9/1/1267929-popular-movie-poster-wallpaper-2000x1333.jpg"
           alt="Forth slide"
         />
-       
       </Carousel.Item>
     </Carousel>
-  
-
     </Container>  
-
     </div>
   )
 }

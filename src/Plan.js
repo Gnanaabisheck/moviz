@@ -121,8 +121,6 @@ const Plan = () => {
                             </div>
                          </div>
                     </Col>
-
-                   
                 </Row>
         </Container>
     </div>
