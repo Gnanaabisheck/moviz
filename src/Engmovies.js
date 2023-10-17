@@ -2,13 +2,14 @@
 import { Col, Container, Image, Row} from 'react-bootstrap'
 import React, { useEffect, useState } from 'react'
 import Carousel from "react-multi-carousel";
+import img from '../src/img/img.png'
 import { useParams } from 'react-router-dom'
 const Engmovies = () => {
     const{id}=useParams()
 
     const[movie,setMovie]=useState([])
     useEffect(()=>{
-        fetch(`http://localhost:3300/movieList/${id}`)
+        fetch(`https://backend-2ihb.onrender.com/movieList/${id}`)
         .then(res=>res.json())
         .then(res=>setMovie(res))})
 
@@ -32,7 +33,21 @@ const Engmovies = () => {
             }
           };
          
-          
+          const[name,setName]=useState('')
+    const[list,setList]=useState([])
+   function handleClick(){
+    if(name=="")
+    {
+      alert("The Comment Section Cant't Be Empty")
+    }
+  else
+    {
+      const data= name
+    setList((lnk)=>([...lnk,data]))
+    setName("")
+    }
+   }
+   const date=new Date 
 
   return (
     <div>
@@ -89,6 +104,36 @@ const Engmovies = () => {
              <p style={{lineHeight:'40px',textAlign:'justify',fontSize:'18px',textIndent:'30px'}}>
               {movie.plot}
                </p>
+      </Container>
+      <Container>
+      <Container className='cmt'>
+        <h2 className='text-center'>
+          Write your Comments here
+        </h2>
+    <div className="input">
+    <input type="text" 
+         value={name}
+         onChange={(e)=>setName(e.target.value)}
+         placeholder='Enter Comments'
+        />
+        <button onClick={handleClick}>Post</button>
+    </div>
+      
+
+       {list.map((item,i)=>(
+        <li key={i} style={{listStyle:'none'}}>
+          <div className="comm">
+         <div className="us">
+         <img src={img} alt="" style={{height:'40px',width:"40px"}}/> <p>{item}</p>
+         </div>
+           <br />
+         <p id='dte'> {`${date.getDate()}/${date.getDay()}/${date.getFullYear()}`}</p>
+          
+          </div>
+          <hr />
+        </li>
+       ))}
+      </Container>
       </Container>
       <Container id='img'>
         <h2 className='text-center my-4'>

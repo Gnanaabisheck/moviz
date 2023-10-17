@@ -6,7 +6,7 @@ const English = () => {
     const[movie,setMovie]=useState([])
     const[inp,setInp]=useState("")
     useEffect(()=>{
-        fetch('http://localhost:3300/movieList')
+        fetch('https://backend-2ihb.onrender.com/movieList')
         .then(res=>res.json())
         .then(res=>setMovie(res))
     })

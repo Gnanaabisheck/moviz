@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import { Col, Container, Image, Row} from 'react-bootstrap'
 import { useParams } from 'react-router-dom';
+import img from '../src/img/img.png'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 const Post = () => {
@@ -9,10 +10,27 @@ const Post = () => {
 
   const[data,setData]=useState([])
     useEffect(()=>{
-        fetch(`http://localhost:8000/movieList/${id}`)
+        fetch(`https://tamil-la7t.onrender.com/movieList/${id}`)
         .then(res=>res.json())
         .then(res=>setData(res))
     })
+
+    const[name,setName]=useState('')
+    const[list,setList]=useState([])
+   function handleClick(){
+    if(name=="")
+    {
+      alert("The Comment Section Cant't Be Empty")
+    }
+  else
+    {
+      const data= name
+    setList((lnk)=>([...lnk,data]))
+    setName("")
+    }
+    
+   }
+   const date=new Date
 
     const responsive = {
       superLargeDesktop: {
@@ -92,10 +110,39 @@ const Post = () => {
               {data.plot}
                </p>
       </Container>
+      <Container className='cmt'>
+      <h2 className='text-center'>
+          Write your Comments here
+        </h2>
+    <div className="input">
+    <input type="text" 
+         value={name}
+         onChange={(e)=>setName(e.target.value)}
+         placeholder='Enter Comments'
+        />
+        <button onClick={handleClick}>Post</button>
+    </div>
+      
+
+       {list.map((item,i)=>(
+        <li key={i} style={{listStyle:'none'}}>
+          <div className="comm">
+         <div className="us">
+         <img src={img} alt="" style={{height:'40px',width:"40px"}}/> <p>{item}</p>
+         </div>
+           <br />
+         <p id='dte'> {`${date.getDate()}/${date.getDay()}/${date.getFullYear()}`}</p>
+          
+          </div>   
+          <hr />
+        </li>
+       ))}
+      </Container>
       <Container id='img'>
         <h2 className='text-center my-4'>
           UPCOMMING MOVIES
         </h2>
+
       <Carousel responsive={responsive}>
       <div>
         <Image src='https://www.91-cdn.com/metareel-images/content/posters-7-1695260939784-3xz1lfMrFlNtZ4H8DQKvYog8ilR.jpg?tr=h-350,q-40&version=5' fluid/>

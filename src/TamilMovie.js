@@ -6,7 +6,7 @@ const TamilMovie = () => {
     const[list,setList]=useState('')
     const[data,setData]=useState([])
     useEffect(()=>{
-     fetch("http://localhost:8000/movieList")
+     fetch("https://tamil-la7t.onrender.com/movieList")
      .then(res=>res.json())
      .then(res=>setData(res))
     },[])

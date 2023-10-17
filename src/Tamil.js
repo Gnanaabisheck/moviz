@@ -8,6 +8,7 @@ import FAQ from './FAQ'
 import Upt from './Upt'
 import Footer from './Footer'
 
+
 const Tamil = () => {
   return (
     <div>
@@ -42,6 +43,7 @@ const Tamil = () => {
         <Upt/>
         <hr />
         <Footer/>
+       
     </div> 
   )
 }
