@@ -2,13 +2,16 @@ import React, { useEffect, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import './Tamil.css'
 import { Link } from 'react-router-dom'
+import img from '../src/img/loading.gif'
 const English = () => {
     const[movie,setMovie]=useState([])
     const[inp,setInp]=useState("")
+    const[load,setLoad]=useState(true)
     useEffect(()=>{
         fetch('https://backend-2ihb.onrender.com/movieList')
         .then(res=>res.json())
         .then(res=>setMovie(res))
+        setLoad(false)
     })
   return (
     <div>
@@ -25,7 +28,7 @@ const English = () => {
           <Container className='mt-5'>
           <Row>
             {
-                movie.filter((movie)=>{
+                load ?(<img src={img} alt="" style={{height:'200px',width:'200px',margin:'auto'}}/>):movie.filter((movie)=>{
                     if(inp=="")
                     return movie
                 else if(movie.title.toLowerCase().includes(inp.toLowerCase()))
