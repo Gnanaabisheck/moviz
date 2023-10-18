@@ -6,12 +6,18 @@ import { Link } from 'react-router-dom'
 const TamilMovie = () => {
     const[list,setList]=useState('')
     const[data,setData]=useState([])
-    const[load,setLoad]=useState(true)
+    const[load,setLoad]=useState(false)
     useEffect(()=>{
-     fetch("https://tamil-la7t.onrender.com/movieList")
+
+     async function fetching(){
+        setLoad(true)
+        await fetch("https://tamil-la7t.onrender.com/movieList")
      .then(res=>res.json())
      .then(res=>setData(res))
      setLoad(false)
+     }
+     fetching()
+
     },[])
   return (
     <div className='everything'>
@@ -26,8 +32,8 @@ const TamilMovie = () => {
        <Container>
         <Row id='as'>
         {
-         load ? (<img src={img} style={{height:'200px',width:'200px',margin:'auto'}}/>)
-         : data.filter((data)=>{
+         load ?(<img src={img} style={{height:'100px',width:'100px',margin:'50px auto'}}/>): data.filter
+         ((data)=>{
             if(list=="")
             return data
         else if(data.title.toLowerCase().includes(list.toLowerCase()))

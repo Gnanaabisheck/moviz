@@ -6,13 +6,20 @@ import img from '../src/img/loading.gif'
 const English = () => {
     const[movie,setMovie]=useState([])
     const[inp,setInp]=useState("")
-    const[load,setLoad]=useState(true)
+    const[load,setLoad]=useState(false)
     useEffect(()=>{
-        fetch('https://backend-2ihb.onrender.com/movieList')
+      
+      async function fetching(){
+        setLoad(true)
+        await fetch('https://backend-2ihb.onrender.com/movieList')
         .then(res=>res.json())
         .then(res=>setMovie(res))
         setLoad(false)
-    })
+      }
+      fetching()
+       
+        
+    },[])
   return (
     <div>
           <div className="input">
@@ -27,8 +34,9 @@ const English = () => {
           </div>
           <Container className='mt-5'>
           <Row>
+            
             {
-                load ?(<img src={img} alt="" style={{height:'200px',width:'200px',margin:'auto'}}/>):movie.filter((movie)=>{
+               load ? (<img src={img} style={{height:'100px',width:'100px',margin:'40px auto'}}/>): movie.filter((movie)=>{
                     if(inp=="")
                     return movie
                 else if(movie.title.toLowerCase().includes(inp.toLowerCase()))
@@ -54,6 +62,7 @@ const English = () => {
                 </Col>
                 )
             }
+            
           </Row>
           </Container>
     </div>
